@@ -1,0 +1,17 @@
+,Select the center where you study:,Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It's the fastest],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It's the cheapest],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It's the most comfortable],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It's the only option],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It has a lower environmental impact],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [It's the healthiest],Please indicate the main reasons why you use the transport combinations you have marked in the previous question. (Select up to a maximum of two options) [I need the private vehicle for other trips],MitjaPersones
+0,'EPSEM',0.5294,0.3235,0.0882,0.2941,0.0882,0.0882,0.0882,0.48039215686274517
+1,'ETSAB',0.7,0.28,0.35,0.14,0.09,0.06,0.01,0.6391666666666668
+2,'ETSECCPB',0.6104,0.3377,0.3117,0.1558,0.0779,0.039,0.0,0.5746753246753247
+3,'ESEIAAT',0.5489,0.3383,0.218,0.2857,0.0451,0.0677,0.0827,0.49122807017543857
+4,'FIB',0.6121,0.3818,0.3758,0.1515,0.0727,0.0545,0.0303,0.5696969696969697
+5,'FME',0.7561,0.3902,0.2927,0.122,0.0732,0.0488,0.0,0.5121951219512196
+6,'EEBE',0.6508,0.373,0.2937,0.127,0.1508,0.0317,0.0079,0.6316137566137566
+7,'EPSEB',0.625,0.3958,0.3958,0.125,0.0625,0.0,0.0625,0.6614583333333335
+8,'ETSEIB',0.6739,0.3406,0.3333,0.1159,0.1739,0.1014,0.0072,0.6062801932367149
+9,'EEABB',0.4667,0.4222,0.3111,0.3111,0.1111,0.0222,0.0222,0.575925925925926
+10,'FOOT',0.6,0.05,0.15,0.5,0.0,0.0,0.1,0.5583333333333333
+11,'EPSEVG',0.4,0.4,0.2222,0.2889,0.0444,0.0444,0.0,0.5833333333333333
+12,'EETAC',0.4444,0.3519,0.2222,0.3148,0.1111,0.037,0.0,0.6033950617283952
+13,'ETSETB',0.6986,0.4247,0.3973,0.0822,0.1507,0.0411,0.0274,0.5216894977168948
+14,'ETSAV',0.5385,0.4615,0.0769,0.2308,0.1923,0.1154,0.0,0.5128205128205129
+15,'FNB',0.68,0.36,0.2,0.2,0.12,0.04,0.0,0.44666666666666666

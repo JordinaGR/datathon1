@@ -1,1 +1,2 @@
-print("hello world")
+dic = {"hola": 1}
+print(dic["hola"])

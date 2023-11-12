@@ -11,12 +11,13 @@ url = "https://www.google.es/maps/dir/Abrera,+08630,+Barcelona/Facultat+de+Matem
 driver = webdriver.Firefox()
 
 driver.get(url)
-time.sleep(.5)
-auto.moveTo(745, 1009)
+time.sleep(1)
+auto.hotkey('winleft', 'left')
+time.sleep(1)
+auto.moveTo(575, 949)
 auto.click()
 
-auto.hotkey('winleft', 'left')
-time.sleep(15)
+time.sleep(14)
 
 x = 1098
 y = 291
@@ -24,88 +25,90 @@ y = 291
 def f(a, b):
     global x, y
     auto.moveTo(x, y)
-    # time.sleep(.5)
+    time.sleep(2)
     auto.click()
     auto.write(f'({a}, {b})')
 
     auto.moveTo(165, 204)
     auto.click()
-    time.sleep(.5)
+    time.sleep(1.5)
 
     auto.hotkey('ctrl', 'a')
     auto.typewrite(a)
-    # time.sleep(.5)
+    time.sleep(1.5)
 
     auto.moveTo(164, 254)
     auto.click()
-    # time.sleep(.5)
+    time.sleep(1.5)
 
     auto.hotkey('ctrl', 'a')
     auto.typewrite(b)
-    time.sleep(.5)
+    time.sleep(1.5)
 
     auto.moveTo(387, 246) #botó cerca
     auto.click()
+    time.sleep(2)
+
 
     auto.moveTo(197, 136) #botó transport privat
     auto.click()
 
-    time.sleep(1)
+    time.sleep(2)
     auto.moveTo(275, 499)
     auto.click()
-    time.sleep(.5)
+    time.sleep(2)
     auto.moveTo(97, 218)
     auto.mouseDown()
     auto.moveTo(219, 249)
     auto.hotkey('ctrl', 'c')
     auto.mouseUp()
-    # time.sleep(.5)
+    time.sleep(1.5)
     auto.moveTo(x, y)
-    # time.sleep(.5)
+    time.sleep(1)
     auto.click()
     time.sleep(.5)
     auto.hotkey('ctrl', 'alt', 'shift', 'v')
 
 
-    # time.sleep(.5)
+    time.sleep(.5)
 
     auto.moveTo(99,135)
     auto.click()
 
-    time.sleep(.5)
+    time.sleep(1.5)
 
     auto.moveTo(249, 135) #boto transport public
     auto.doubleClick()
-    time.sleep(1)
+    time.sleep(2)
     auto.moveTo(105, 570)
     auto.click()
-    # time.sleep(.5)
+    time.sleep(2)
 
     auto.moveTo(97, 217) 
     auto.mouseDown()
-    time.sleep(.5)
+    time.sleep(1.5)
     auto.moveTo(284, 247)
     auto.hotkey('ctrl', 'c')
     auto.mouseUp()
-    # time.sleep(.5)
+    time.sleep(1.5)
 
     auto.moveTo(x, y)
     time.sleep(.5)
     auto.click()
-    # time.sleep(.5)
+    time.sleep(.5)
 
     auto.write('&&')
     time.sleep(.5)    
     auto.moveTo(x, y)
-    # time.sleep(.5)
+    time.sleep(.5)
     auto.click()
     time.sleep(.5)
     auto.hotkey('ctrl', 'alt', 'shift', 'v')
 
-    # time.sleep(.5)
+    time.sleep(.5)
 
     auto.moveTo(x, y)
-    # time.sleep(.5)
+    time.sleep(.5)
     auto.click()
     time.sleep(.5)
     auto.press('enter')
@@ -117,9 +120,8 @@ def f(a, b):
 df = pd.read_csv('/home/jordina/Desktop/datathon/facultats_i_origen.csv')
 
 for indx, row in df.iterrows():
-    if row[1] >= 945:
-        if int(row[5]) == 3007:
-            f(row[3], "Alicante")
-        else:
-            f(row[3], str(int(row[5])))
-        time.sleep(.5)
+    if int(row[5]) == 3007:
+        f(row[3], "Alicante")
+    else:
+        f(row[3], str(int(row[5])))
+    time.sleep(.5)
